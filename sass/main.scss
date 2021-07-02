@@ -1,0 +1,233 @@
+$color: #2c2c2c;
+$backraundColor: #dcdfca;
+$colorShrift: #343434;
+$colorCins: #708d92;
+$colorBtn: #fabaa0;
+
+* {
+  box-sizing: border-box;
+}
+h5{
+    margin: 0px !important;
+}
+body {
+    overflow-x: hidden !important;
+  font-family: "Castoro", serif;
+  margin: 0%;
+  padding: 0%;
+  .welcome {
+    background-color: $color;
+    color: #fff;
+    text-align: center;
+  }
+  .BoonMarket {
+    background-image: url(./../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .hed {
+      .boomLife {
+        font-family: "Dela Gothic One", cursive;
+        font-weight: bold !important;
+      }
+      h1 {
+        color: $colorShrift;
+      }
+    }
+    .text-warning{
+        color: #ff9d00;
+    }
+    .cardsText{
+        margin: 0% auto;
+    }
+    .btn {
+      background-color: $colorBtn;
+      color: #fff;
+      border-radius: 10px;
+      border: 0;
+      padding: 10px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px !important;
+    }
+    .logoText {
+      width: 280px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    .links {
+      ul {
+        justify-content: center;
+        padding: 40px 0;
+        padding-right: 20px;
+        margin: auto;
+        
+        li {
+          padding: 0 15px !important;
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            color: $colorShrift;
+          }
+        }
+      }
+    }
+  }
+  #about {
+    height: 100hv;
+     
+    width: 100% !important;
+    padding-top: 100px;
+    background-color: #fff;
+    position: relative;
+    .since {
+      width: 100% !important;
+      height: 200px;
+      background-color: $colorCins;
+      margin: 0 auto;
+      padding: 20px;
+      position: absolute;
+      top: -130px !important;
+      .row {
+        .cards {
+          min-height: 155px !important;
+          max-height: 155px !important;
+        }
+      }
+    }
+  }
+  .marginn{
+      margin-top:10px !important ;
+  }
+  .shop{
+      background-color: $colorCins;
+      padding-bottom:39px ;
+      .sectionsProport{
+         margin: auto;
+      }
+      .shopSect{
+          background-color:  #F7F5F2;
+          border-radius: 25px ;
+          color: #2c2c2c;
+          text-align: center;
+          width: 150px;
+          height: 60px;
+          margin: 10px 8px !important;
+          font-size: 13px;
+           
+      }
+      
+  }
+
+} 
+.Collection{
+    padding: 2px;
+    background-color: #f59e7c;
+}
+@media screen and (max-width: 600px) {
+    .imgProduct{
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+@media screen and (min-width: 700px) {
+    .sectionsProport{
+        margin-left: 200px !important;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+  .hed {
+    width: 100% !important;
+    padding-right: 20px;
+  }
+  #email{
+    height: 40px;
+    padding: 0 !important;
+    width: 100px !important;
+}
+.firstName{
+  width: 50px !important;
+}
+  #about{
+      width: 100% !important;
+      left: 0px !important;
+  }
+  .btn{
+      margin-top: 50px !important;
+  }
+  .since {
+    width: 100% !important;
+    top: -199px !important;
+    .row {
+      .cards {
+           padding: 8px !important;
+        .cards1Text {
+          padding: 0px !important;
+        }
+      }
+      .colnone {
+        display: none;
+      }
+    }
+  }
+  .links {
+    display: none !important;
+  }
+}
+.imgProduct{
+    width: 300px !important;
+    height: 300px !important;
+}
+.registerContainer{
+    width: 100%;
+    justify-content: center; 
+    .firstName{
+        height: 40px;
+     }
+    #email{
+        height: 40px;
+        padding: 0 10px !important;
+        width: 100px !important;
+    }
+    label{
+        background-color: #f59e7c;
+        color: #fff;
+        height: 40px;
+    }
+}
+footer{
+    padding: 25px 0;
+    background-color: $backraundColor;
+    .container{
+        .row{ 
+            .footerLinks{
+                ul {
+                    justify-content: center;
+                    padding: 40px 0;
+                    padding-right: 20px;
+                    margin: auto;
+                    
+                    li {
+                      padding: 0 15px !important;
+                      list-style-type: none !important;
+                      a {
+                        text-decoration: none;
+                        color: $colorShrift;
+                      }
+                    }
+                  }
+            }
+        }
+    }
+}
+.raund{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: $colorShrift;
+    margin: 0px 5px;
+}

@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+h5 {
+  margin: 0px !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: "Castoro", serif;
+  margin: 0%;
+  padding: 0%;
+}
+body .welcome {
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: center;
+}
+body .BoonMarket {
+  background-image: url(./../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body .BoonMarket .hed .boomLife {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: bold !important;
+}
+body .BoonMarket .hed h1 {
+  color: #343434;
+}
+body .BoonMarket .text-warning {
+  color: #ff9d00;
+}
+body .BoonMarket .cardsText {
+  margin: 0% auto;
+}
+body .BoonMarket .btn {
+  background-color: #fabaa0;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px !important;
+}
+body .BoonMarket .logoText {
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+body .BoonMarket .links ul {
+  justify-content: center;
+  padding: 40px 0;
+  padding-right: 20px;
+  margin: auto;
+}
+body .BoonMarket .links ul li {
+  padding: 0 15px !important;
+  list-style-type: none;
+}
+body .BoonMarket .links ul li a {
+  text-decoration: none;
+  color: #343434;
+}
+body #about {
+  height: 100hv;
+  width: 100% !important;
+  padding-top: 100px;
+  background-color: #fff;
+  position: relative;
+}
+body #about .since {
+  width: 100% !important;
+  height: 200px;
+  background-color: #708d92;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  top: -130px !important;
+}
+body #about .since .row .cards {
+  min-height: 155px !important;
+  max-height: 155px !important;
+}
+body .marginn {
+  margin-top: 10px !important;
+}
+body .shop {
+  background-color: #708d92;
+  padding-bottom: 39px;
+}
+body .shop .sectionsProport {
+  margin: auto;
+}
+body .shop .shopSect {
+  background-color: #F7F5F2;
+  border-radius: 25px;
+  color: #2c2c2c;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  margin: 10px 8px !important;
+  font-size: 13px;
+}
+
+.Collection {
+  padding: 2px;
+  background-color: #f59e7c;
+}
+
+@media screen and (max-width: 600px) {
+  .imgProduct {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+@media screen and (min-width: 700px) {
+  .sectionsProport {
+    margin-left: 200px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hed {
+    width: 100% !important;
+    padding-right: 20px;
+  }
+
+  #about {
+    width: 100% !important;
+    left: 0px !important;
+  }
+
+  .btn {
+    margin-top: 50px !important;
+  }
+
+  .since {
+    width: 100% !important;
+    top: -199px !important;
+  }
+  .since .row .cards {
+    padding: 8px !important;
+  }
+  .since .row .cards .cards1Text {
+    padding: 0px !important;
+  }
+  .since .row .colnone {
+    display: none;
+  }
+
+  .links {
+    display: none !important;
+  }
+}
+.imgProduct {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.registerContainer {
+  width: 100%;
+  justify-content: center;
+}
+.registerContainer .firstName {
+  height: 40px;
+}
+.registerContainer #email {
+  height: 40px;
+  padding: 0 10px !important;
+  width: 100px !important;
+}
+.registerContainer label {
+  background-color: #f59e7c;
+  color: #fff;
+  height: 40px;
+}
+
+footer {
+  padding: 25px 0;
+  background-color: #dcdfca;
+}
+footer .container .row .footerLinks ul {
+  justify-content: center;
+  padding: 40px 0;
+  padding-right: 20px;
+  margin: auto;
+}
+footer .container .row .footerLinks ul li {
+  padding: 0 15px !important;
+  list-style-type: none !important;
+}
+footer .container .row .footerLinks ul li a {
+  text-decoration: none;
+  color: #343434;
+}
+
+.raund {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #343434;
+  margin: 0px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
